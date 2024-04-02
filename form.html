@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Task Form</h3>
+        <label for="Title">Title</label><br>
+        <input type="text" id="Title" name="Title"><br><br>
+        <label for="Desc">Description</label><br>
+        <textarea id="Desc" name="Desc" rows="3" cols="19"></textarea><br><br>
+        <label for="Category">Category</label><br>
+        <input type="text" id="Category" name="Category"><br><br>
+        <label for="Priority">Priority Level</label><br>
+        <select name="levels" required>
+            <option value="" disabled selected hidden>Select an item</option>
+            <option value="normal">Normal</option>
+            <option value="high">High</option>
+        </select><br><br>
+        <label for="Progress">Progress Level</label><br>
+        <select name="plevels" required>
+            <option value="" disabled selected hidden>Select an item</option>
+            <option value="normal">Pending</option>
+            <option value="high">Complete</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </body>
+</html>
